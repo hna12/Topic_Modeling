@@ -15,3 +15,11 @@ text 본문의 **숨겨진 의미구조**를 발견하기 위해 사용되는 te
   3. TF-IDF 행렬 만들기
   4. LDA학습 및 결과분석
   
+### Text preprocessing
+- text를 자연어 처리를 위해 용도에 맞도록 표준화하는 작업
+- text내 정보는 유지하고 중복을 제거해 분석 효율성을 높이기위함
+- tokenization, 품사 tagging, 개체명 인식, 원형복원, 불용어 처리 등
+
+### TF-IDF 행렬 만들기 (Term Frequency-Inverse Document Frequency)
+- 문자를 숫자로 수치화하는 것
+- 단어의 빈도와 역 문서 빈도를 사용해 문서 단어 행렬(DTM, Document-Term Matrix)내의 각 단어들마다 중요한 정도를 가중치로 주는 방법
